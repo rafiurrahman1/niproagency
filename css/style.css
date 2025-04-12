@@ -1,0 +1,200 @@
+/*common start*/
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #898989;
+}
+.c_padding{
+	padding-top: 32px;
+	padding-bottom: 120px;
+}
+/*common end*/
+/*header start*/
+header{
+	background-color: white;
+	padding: 32px 0;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #8e8e8e;
+	padding: 0 24px !important;
+}
+.menu ul li:first-child a{
+	font-weight: 700;
+	color: #333333;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color:  !important;
+}
+
+
+/*header end*/
+
+/*section*/
+
+.banner{
+	background-image: url('../images/niproagency.png');
+	height: 100vh; 
+	background-size: cover; 
+	background-position: center;
+	margin-top: 120px;
+}
+.text-box{
+	font-family: "Roboto", sans-serif;
+	padding-top: 207px;
+	padding-right: 150px;
+
+}
+.s-head{
+	color: #ffffff;
+	font-size: 60px;
+}
+.s-text{
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 30px;
+}
+.s-p{
+	padding: 40px 0px 40px 0;
+}
+.s-bt{
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #333333;
+	border: none;
+	width: 201px;
+	height: 47px;
+}
+
+
+/*section end*/
+
+/*welcome starts*/
+.welcome{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+.w-head{
+	font-size: 30px;
+	color: black !important; 
+	text-transform: uppercase;
+}
+.w-text{
+	font-family: "Roboto", sans-serif;
+	color: #8e8e8e;
+	margin-top: 40px;
+	line-height: 30px;
+}
+
+/*welcome ends*/
+
+/*welcome-2 sttarts*/
+
+.w2-item{
+	border: 1px solid #8e8e8e;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 70px;
+	transition: 0.3s;
+}
+.w2-icon{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+.w2-h{
+	font-weight: 700;
+	color: #333333;
+}
+.w2-text{
+	margin-bottom: 30px;
+}
+.bt-more{
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+.bt-more:hover{
+	cursor: pointer;
+	color: #333333;
+}
+.w2-item:hover{
+	cursor: pointer;
+	border: 1px solid black;
+	
+}
+
+/*welcome-2 ends*/
+
+/*about us starts*/
+.about{
+	margin-top: 80px;
+}
+.ab-img{
+	width: 566px;
+}
+.a-bt{
+	border: 1px solid #8e8e8e;
+	background-color: white;
+	margin-top: 40px;
+	transition: 0.4s;
+}
+.a-bt:hover{
+	color: #333333;
+	border: 1px solid black;
+
+}
+
+/*about us ends*/
+
+/*recent starts*/
+.recent{
+	background-color: #f8f8f8;
+	padding-top: 72px;
+	margin-top: 122px;
+	padding-bottom: 98px;
+}
+
+.r-head{
+	text-align: center;
+	margin-bottom: 72px;
+
+}
+.r-list{
+	text-decoration: none !important;
+	text-transform: uppercase; 
+	margin-bottom: 58px;
+	margin-right: 15px;
+	color: #8e8e8e;
+	transition: 0.3s !important; 
+}
+
+.r-list:hover{
+	font-weight: 700;
+}
+
+.r-row{
+	margin-top: 28px;
+
+}
+.r-img{
+	padding: 0 8px 0 8px;
+}
+.r-img-l{
+	padding-right: 16px;
+}
+.r-img-r{
+	padding-left: 16px;
+}
+/*recent ends*/
